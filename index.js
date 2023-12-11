@@ -1,0 +1,1 @@
+const gojourn = require('./gojourn/index.js')
