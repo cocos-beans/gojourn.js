@@ -3,6 +3,7 @@ const readline = require('readline-sync')
 const dialog = require('./gojourn/dialog.json')
 let cur_loc = "main_menu"
 let a
+let loop = true
 
 function rl(ask = "") { //Shorthand
     return (ask === "")
@@ -18,7 +19,7 @@ function ok() {
     rl(dialog.misc.confirm_pause)
 }
 
-for (;;) {
+while (loop) {
     console.clear()
 
     //Print dialogue
@@ -54,7 +55,7 @@ for (;;) {
     }
 
     //Too many arguments
-    if (a.split(' ').splice(0, 1).length > gj[a.split(' ')[0]].me.arg_limit) {
+    if (a.split(' ').splice(1, a.split(' ').length).length > gj[a.split(' ')[0]].me.arg_limit) {
         put(dialog.error.too_many_args)
         ok()
         continue
