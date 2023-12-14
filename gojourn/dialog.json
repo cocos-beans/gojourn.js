@@ -1,0 +1,19 @@
+{
+    "error": {
+        "invalid_command": "That's not a valid command! Type 'help' for valid commands.",
+        "no_command": "Please say a command, you said nothing!",
+        "too_many_args": "That's too many arguments!"
+    },
+    "main_menu": {
+        "option01": "[1] Begin new game",
+        "option02": "[2] Load save",
+        "option03": "[3] Credits & More",
+        "subtext01": "(c) 2023 cocosbeans (MPL 2.0)",
+        "subtext02": "Version 1.0.0a",
+        "subtext03": "Type 'select' followed by a number for the option you'd like",
+        "title01": "Welcome to Gojourn."
+    },
+    "misc": {
+        "confirm_pause": "Ok . . ."
+    }
+}
