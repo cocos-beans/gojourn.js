@@ -1,12 +1,14 @@
 class Action {
     constructor(
         name,
+        valid_args,
         desc,
         arg_limit,
         arg_types = []
     ) {
         this.me = {
             name: name,
+            valid_args: valid_args,
             desc: desc,
             arg_limit: arg_limit,
             arg_types: arg_types

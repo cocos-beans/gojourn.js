@@ -1,5 +1,6 @@
 {
     "error": {
+        "incorrect_arg_type": "Your arguments are wrong! Make sure you put numbers where they belong, same with words!",
         "invalid_command": "That's not a valid command! Type 'help' for valid commands.",
         "no_command": "Please say a command, you said nothing!",
         "too_many_args": "That's too many arguments!"
@@ -14,6 +15,7 @@
         "title01": "Welcome to Gojourn."
     },
     "misc": {
+        "cmd_help_title01": "List of valid commands:",
         "confirm_pause": "Ok . . ."
     }
 }
