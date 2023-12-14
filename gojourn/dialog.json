@@ -1,4 +1,22 @@
 {
+    "cmd": {
+        "help": {
+            "title01": "List of valid commands:"
+        },
+        "select": {
+            "invalid_arg_choice": "That is not an option you can choose!",
+            "saves_not_implemented": "Game saving has not been added yet!"
+        }
+    },
+    "credits": {
+        "label01": "Gojourn is a project created by Blair Myhre.",
+        "label02": "Dec 2023. License: Mozilla Public License 2.0",
+        "label03": "Gojourn, its code, and its content are all created by Blair Myhre.",
+        "label04": "Gojourn.js contains package dependencies:",
+        "label05": "npm/readline-sync@1.4.10",
+        "label06": "When publishing or sharing a modified version of Gojourn, please adhere to MPL 2.0.",
+        "label07": "Gojourn is inspired by Zork I."
+    },
     "error": {
         "incorrect_arg_type": "Your arguments are wrong! Make sure you put numbers where they belong, same with words!",
         "invalid_command": "That's not a valid command! Type 'help' for valid commands.",
@@ -15,7 +33,6 @@
         "title01": "Welcome to Gojourn."
     },
     "misc": {
-        "cmd_help_title01": "List of valid commands:",
         "confirm_pause": "Ok . . ."
     }
 }
