@@ -23,6 +23,26 @@
         "no_command": "Please say a command, you said nothing!",
         "too_many_args": "That's too many arguments!"
     },
+    "in_game": {
+        "cell01": {
+            "initial": {
+                "inspect": {
+                    "door_keyhole_uncleared": "Upon closer inspection, there is a keyhole on the cell door. It is filled with mold.",
+                    "door_keyhole_cleared": "Upon closer inspection, there is a keyhole on the cell door. The keyhole is sizeable enough to view through.",
+                    "door_keyhole_view": "Looking through the keyhole, you see a guarded corridor into a hallway. You presume that hallway leads to the exit.",
+                    "grating_gloves_present": "Upon closer inspection, the grating has reinforced iron bars which give a big enough gap to reach through. On the other side, just in reach lies a pair of gloves. A guard must have left them.",
+                    "grating_gloves_taken": "Upon closer inspection, the grating has reinforced iron bars which give a big enough gap to reach through. You can see a guard's tower and a large brick wall. The rest is blocked by a bush.",
+                    "carpet_unmoved": "This carpet is far too big for you to pull with your bare hands. You'd need some help.",
+                    "carpet_moved": "The furled carpet reveals a slightly convex floor leading to a drain. It is big enough to fit a person.",
+                    "grate_hole": "Looking into the drain hole is impossible. It's pitch black. You assume it is too far of a drop to survive."
+                },
+                "text01": "You are in a damp, dimly lit prison cell. The walls are made of some cracked, albeit strong, bricks.",
+                "text02": "Upon the west wall is an iron grating which allows light. It is barely big enough to reach through.",
+                "text03": "The south wall has a large wooden door. Perpendicular to the moldy planks are iron beams which hold them together.",
+                "text04": "Below you is a large carpet. It is much too heavy to lift with your bare hands."
+            }
+        }
+    },
     "main_menu": {
         "option01": "[1] Begin new game",
         "option02": "[2] Load save",

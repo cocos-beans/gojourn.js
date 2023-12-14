@@ -51,6 +51,12 @@ while (loop) {
             `)
             ok()
             break
+        case "cell01":
+            skip_cmd = false
+            put(`
+                
+            `)
+            break
     }
 
     if (!skip_cmd) {
